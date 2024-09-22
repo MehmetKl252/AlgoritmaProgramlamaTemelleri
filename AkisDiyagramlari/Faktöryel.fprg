@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sist"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-20 05:40:35 "/>
+        <attribute name="created" value="c2lzdDsgU0lTVC1CSUxHSVNBWUFSOyAyMDIzLTAyLTIwOyAwNToxNTo0MiA7IDI3NzM="/>
+        <attribute name="edited" value="c2lzdDsgU0lTVC1CSUxHSVNBWUFSOyAyMDIzLTAyLTIwOyAwNTo0MDozNSA7IDI3NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="1"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a&gt;0">
+                <then>
+                    <for variable="a" start="a" end="1" direction="dec" step="1">
+                        <if expression="a&gt;0">
+                            <then>
+                                <assign variable="b" expression="a*b"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <output expression="b"/>
+                </then>
+                <else>
+                    <output expression="&quot;negatif say&#305; girdiniz&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
