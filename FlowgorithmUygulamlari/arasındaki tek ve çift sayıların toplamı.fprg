@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhasebe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-23 07:58:56 &#214;S"/>
+        <attribute name="created" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjM7IDA3OjUzOjI1IMOWUzsgMzExNA=="/>
+        <attribute name="edited" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjM7IDA3OjU4OjU2IMOWUzsgMzEyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, t, &#231;" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="12"/>
+            <assign variable="y" expression="37"/>
+            <assign variable="t" expression="0"/>
+            <assign variable="&#231;" expression="0"/>
+            <for variable="x" start="x" end="y" direction="inc" step="1">
+                <if expression="x%2==0">
+                    <then>
+                        <assign variable="&#231;" expression="&#231;+x"/>
+                    </then>
+                    <else>
+                        <assign variable="t" expression="t+x"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;&#231;ift=&quot;&amp;&#231;"/>
+            <output expression="&quot;tek=&quot;&amp;t"/>
+        </body>
+    </function>
+</flowgorithm>

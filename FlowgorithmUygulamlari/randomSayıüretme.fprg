@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhasebe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-11 08:00:31 &#214;S"/>
+        <attribute name="created" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTAtMTE7IDA3OjE0OjEwIMOWUzsgMzEwMQ=="/>
+        <attribute name="edited" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTAtMTE7IDA4OjAwOjMxIMOWUzsgMzEwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <for variable="i" start="1" end="6" direction="inc" step="1">
+                <output expression="a&amp;&quot;)&quot;&amp;Random(1000)"/>
+                <assign variable="a" expression="a+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

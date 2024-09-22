@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhasebe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-22 05:42:46 &#214;S"/>
+        <attribute name="created" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjI7IDA1OjMxOjA1IMOWUzsgMzEwNQ=="/>
+        <attribute name="edited" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjI7IDA1OjQyOjQ2IMOWUzsgMzExMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Say&#305;1:&quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Say&#305;2:&quot;"/>
+            <input variable="b"/>
+            <for variable="a" start="a" end="b" direction="inc" step="1">
+                <if expression="a%2!=0">
+                    <then>
+                        <output expression="a"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;&#304;&#351;lem Bitti&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

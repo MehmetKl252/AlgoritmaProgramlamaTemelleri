@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhasebe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-09 05:28:46 &#214;S"/>
+        <attribute name="created" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMDk7IDA0OjU1OjU4IMOWUzsgMzEyMw=="/>
+        <attribute name="edited" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMDk7IDA1OjI4OjQ2IMOWUzsgMzEyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ilk, son" type="Integer" array="False" size=""/>
+            <assign variable="ilk" expression="1"/>
+            <output expression="&quot;Say&#305; Giriniz=&quot;"/>
+            <input variable="son"/>
+            <for variable="son" start="son" end="ilk" direction="dec" step="1">
+                <output expression="son"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

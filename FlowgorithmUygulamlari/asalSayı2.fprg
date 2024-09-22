@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhasebe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-22 08:41:08 &#214;S"/>
+        <attribute name="created" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjI7IDA3OjU1OjM3IMOWUzsgMzExOA=="/>
+        <attribute name="edited" value="bXVoYXNlYmU7IFBDT0dSRVRNRU47IDIwMjMtMTEtMjI7IDA4OjQxOjA4IMOWUzsgMzExMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <input variable="x"/>
+            <if expression="x==2">
+                <then>
+                    <output expression="&quot;asal&quot;"/>
+                </then>
+                <else>
+                    <if expression="x&lt;=0 or x==1">
+                        <then>
+                            <output expression="&quot;asal de&#287;il&quot;"/>
+                        </then>
+                        <else>
+                            <for variable="i" start="i" end="x" direction="inc" step="1">
+                                <if expression="i%2==0">
+                                    <then>
+                                        <output expression="&quot;asal de&#287;il&quot;"/>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;asal&quot;"/>
+                                    </else>
+                                </if>
+                            </for>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
